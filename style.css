@@ -1,0 +1,138 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: yellow;
+    border-style: solid;
+    border-color:black;
+    text-decoration: none;
+}
+
+.Logo {
+    width: 80px;
+}
+
+.Navbar a{
+    text-decoration: None;
+    border-right: 2px solid black;
+    padding: 30px 140px;
+    font-family: Raleway;
+    font-size: 14px;
+}
+
+.Navbar a:first-child {
+    border-left:10px;
+}
+
+.Navbar a:last-child {
+    border-right:none;
+}
+
+.Navbar a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+body {
+    background-color: yellow;
+}
+
+.Welcome{
+    font-size: 60px;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    margin:100px;
+}
+
+.bounce-top {animation:bounce-top .9s linear both} @keyframes bounce-top{0%{transform:translateY(-45px);animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{transform:translateY(-24px);animation-timing-function:ease-in}65%{transform:translateY(-12px);animation-timing-function:ease-in}82%{transform:translateY(-6px);animation-timing-function:ease-in}93%{transform:translateY(-4px);animation-timing-function:ease-in}25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-out}100%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}}
+
+
+.Slogan1{
+    font-size: 30px;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: lightgray;
+}
+
+.Slogan2{
+    font-size: 30px;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(151, 147, 147);
+}
+
+.Intrend{
+    font-size: 20px;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#content-slider{
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slider{
+    height: 100%;
+    position: relative;
+}
+
+.card-slider{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-slider{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    scale: 200%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color:  black;
+    scale: 200%;
+}
+
+#Dots{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Dots > a{
+    font-size: 1.5em;
+    font-style: none;
+    color: black;
+}
+
+img {
+    width: 90%;
+    height: 100%;
+}
